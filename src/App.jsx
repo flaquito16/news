@@ -1,4 +1,5 @@
 import { Card } from "./components/Card/Card"
+import { Cards } from "./components/Card/Cards"
 import { content } from "./components/Content/Content"
 import { contents } from "./components/Content/Contents"
 import { Header } from "./components/Layouts/Header/Header"
@@ -15,22 +16,22 @@ function App() {
    
     <Home>
       <Header/>
-      <Main>
-        <Sections className= "w-full">
-          <div className="w-3/6">
+      <Main >
+        <Sections >
+          <div >
           {
-              contents.map(card=>(
-                <Card
-                  key={card.id}
-                  img={card.img}
-                  date={card.date}
-                  title={card.title}
-                  description={card.description}
+              contents.map(cards=>(
+                <Cards
+                  key={cards.id}
+                  img={cards.img}
+                  date={cards.date}
+                  title={cards.title}
+                  description={cards.description}
                 />
               ))
             }
           </div>
-          <div className="w-3/6">
+          <div >
           {
               content.map(card=>(
                 <Card
