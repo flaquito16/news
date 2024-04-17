@@ -18,7 +18,7 @@ function App() {
       <Header/>
       <Main >
         <Sections >
-          <div >
+          <div className="w-1/2 flex justify-center items-center">
           {
               contents.map(cards=>(
                 <Cards
@@ -31,7 +31,7 @@ function App() {
               ))
             }
           </div>
-          <div >
+          <div className="w-1/2">
           {
               content.map(card=>(
                 <Card

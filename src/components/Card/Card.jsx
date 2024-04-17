@@ -3,13 +3,13 @@ import React from 'react'
 export const Card = ({img,date,title,description}) => {
   return (
       <>
-      <div className='w-1/2'>
+      <div className='text-xs'>
 
-        <img  src={img} alt="" />
+        <img  className='w-24 h-20 m-3' src={img} alt="" />
         <p>{date}</p>
         <p >{title}</p>
-         <p >{description}</p>
-      <hr />    
+         <p className='w-3/4'>{description}</p>
+      <hr className='m-1'/>    
       </div>
          
            
