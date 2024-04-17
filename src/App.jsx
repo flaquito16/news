@@ -14,7 +14,12 @@ function App() {
       <Header/>
       <Main>
         <Sections>
-          
+          <div className="w-2/4">
+
+          </div>
+          <div className="w-2/4">
+
+          </div>
         </Sections>
       </Main>
     </Home>
