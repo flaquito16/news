@@ -2,6 +2,7 @@ import { Card } from "./components/Card/Card"
 import { Cards } from "./components/Card/Cards"
 import { content } from "./components/Content/Content"
 import { contents } from "./components/Content/Contents"
+import { Footer } from "./components/Layouts/Footer/Footer"
 import { Header } from "./components/Layouts/Header/Header"
 import { Main } from "./components/Layouts/Main/Main"
 import { Sections } from "./components/Layouts/Sections/Sections"
@@ -47,6 +48,7 @@ function App() {
           </div>
         </Sections>
       </Main>
+        <Footer/>
     </Home>
    
   )
