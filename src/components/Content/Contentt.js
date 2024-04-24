@@ -1,28 +1,38 @@
+import images1 from "../../../public/pokemon.png"
+import images2 from "../../../public/gta-v.png"
+import images3 from "../../../public/resident.png"
+import images4 from "../../../public/fc.png"
+import images5 from "../../../public/god-of-war.png"
+
+
+
+
+
 export const cont =[
     {
         id: 1,
-        img: "../../../public/pokemon.png",
+        img: images1,
        
     },
     {
         id: 2,
-        img: "../../../public/gta-v.png",
+        img: images2,
       
     
     },
     {
         id: 3,
-        img: "../../../public/resident.png",
+        img: images3,
        
     
     },
     {
         id: 4,
-        img: "../../../public/fc.png",
+        img: images4,
         
     },
     {
         id:5,
-        img:"../../../public/god-of-war.png",
+        img:images5,
     },
 ]
